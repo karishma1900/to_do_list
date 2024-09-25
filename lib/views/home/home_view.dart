@@ -167,7 +167,7 @@ GlobalKey<SliderDrawerState> drawerKey = GlobalKey<SliderDrawerState>();
               ),
       SizedBox(
               width: double.infinity,
-      height: 585,
+      height: 500,
       
       child:tasks.isNotEmpty 
       ?ListView.builder(
