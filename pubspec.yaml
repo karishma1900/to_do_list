@@ -1,0 +1,68 @@
+name: to_do_application
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+  #Generate RFC4122
+  uuid: ^3.0.5
+
+  #provides internationalization and localization facilitues
+  intl: ^0.17.0
+
+  #animation
+  animate_do: ^2.1.0
+
+  #Dialogs
+  panara_dialogs: ^0.1.2
+
+  #Animations exported as json
+  lottie: ^3.1.2
+
+  #ftoast
+  ftoast: ^2.0.0
+
+  #SLider
+  flutter_slider_drawer: ^2.1.1
+
+  #date picker
+  flutter_cupertino_date_picker_fork: ^1.0.7
+
+
+
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/lottie/
+
